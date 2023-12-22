@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 30px;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  float: left;
+  background-color: #4aaaa5;
+  border-bottom: none;
+  color: #ffffff;
+  height: 100%;
+  width: 270px;
+  margin-left: 125px;
+  margin-bottom: 0;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+h2,
+h3 {
+  color: #4aaaa5;
+  border-bottom: 3px solid #dddddd;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  margin-top: 1px;
+  padding-bottom: 3px;
+}
+
+nav {
+  width: 270px;
+  float: right;
+  text-align: center;
+  margin-right: 125px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+li.border {
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+.icon {
+  width: 60px;
+  height: auto;
+  color: none;
+  border-right: none;
+}
+
+section {
+  background-color: #ffffff;
+  float: left;
+  color: #777777;
+  border: 2px solid #dddddd;
+}
+
+footer {
+  clear: both;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: 18px;
+  height: 70px;
+  background-color: #666666;
+  width: 100%;
+  border-bottom: none;
+  color: #777777;
+  text-align: center;
+}
+
+.header-block {
+  border-bottom: 2px solid #cccccc;
+  background-color: #ffffff;
+  height: 60px;
+}
+
+.main {
+  clear: both;
+  overflow: auto;
+  margin: 0 auto;
+  background-image: url("../images/grey-textured-background_24972-763.jpg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px solid #4aaaa5;
+}
+
+#main-right {
+  float: right;
+  padding: 10px;
+  width: 270px;
+  top: 30px;
+  text-align: center;
+  margin-right: 125px;
+  margin-top: 30px;
+}
+
+#main-left {
+  position: relative;
+  text-align: left;
+  width: 650px;
+  top: 30px;
+  margin-left: 125px;
+  margin-bottom: 50px;
+  height: auto;
+  padding: 20px;
+}
+
+#my-image {
+  clear: both;
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+}
